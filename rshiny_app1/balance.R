@@ -272,11 +272,11 @@ ab<-c(20,8,5,4,2,1) #candidate for user's guide
 # grid.arrange(p, omit_y(p), omit_y(p), p, omit_y(p), omit_y(p), p, omit_y(p), omit_y(p))
 
 # rarity_series(ab=ab, 1:-1)
-pdf(file="figures/rarity_plots_for_guide.pdf")
-rarity_plot(ab, 1)+scale_color_brewer(type="qual", palette="Dark2") #also changed base_size to 30 or maybe 32 and doubled point size. 
-white_y(rarity_plot(ab,0))+scale_color_brewer(type="qual", palette="Dark2")
-white_y(rarity_plot(ab,-1))+scale_color_brewer(type="qual", palette="Dark2")
-dev.off()
+# pdf(file="figures/rarity_plots_for_guide.pdf")
+# rarity_plot(ab, 1)+scale_color_brewer(type="qual", palette="Dark2") #also changed base_size to 30 or maybe 32 and doubled point size. 
+# white_y(rarity_plot(ab,0))+scale_color_brewer(type="qual", palette="Dark2")
+# white_y(rarity_plot(ab,-1))+scale_color_brewer(type="qual", palette="Dark2")
+# dev.off()
 ##############
 # RAD plot code
 radplot<-function(comm, maxrich=length(comm), maxab=max(comm), fill, shape=16){
