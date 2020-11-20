@@ -16,7 +16,7 @@ ui <- fluidPage(
             # Input: Slider for scaling exponent ell ----
             , sliderInput(inputId = "ell"
                         , label = helpText("scaling exponent ℓ")
-                        , min = -1,
+                        , min = -1
                         , max = 1
                         , value = 1
                         , step = 0.2)
